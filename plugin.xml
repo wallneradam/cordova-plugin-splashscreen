@@ -30,7 +30,7 @@
 
     <engines>
         <engine name="cordova-android" version=">=3.6.0" /><!-- Requires CordovaPlugin.preferences -->
-        <engine name="cordova-windows" version=">=4.4.0" />
+        <engine name="cordova-windows" version=">=4.3.2" />
     </engines>
 
     <js-module src="www/splashscreen.js" name="SplashScreen">
@@ -107,15 +107,15 @@
 
     <!-- windows8 -->
     <platform name="windows8">
-        <js-module src="www/windows/SplashScreenProxy.js" name="SplashScreenProxy">
-            <merges target="" />
+        <js-module src="src/windows/SplashScreenProxy.js" name="SplashScreenProxy">
+            <runs />
         </js-module>
     </platform>
 
     <!-- windows -->
     <platform name="windows">
-        <js-module src="www/windows/SplashScreenProxy.js" name="SplashScreenProxy">
-            <merges target="" />
+        <js-module src="src/windows/SplashScreenProxy.js" name="SplashScreenProxy">
+            <runs />
         </js-module>
     </platform>
 
